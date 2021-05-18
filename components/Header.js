@@ -4,7 +4,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 font-quick">
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 font-quick">
       <div className="relative flex items-center justify-between">
         <a href="/" className="inline-flex items-center">
           <svg
@@ -21,13 +21,13 @@ const Header = () => {
             ></path>
           </svg>
         </a>
-        <ul className="flex items-center hidden space-x-8 lg:flex">
+        <ul className="items-center hidden space-x-2 lg:flex shadow-sh py-4 rounded-lg">
           <li>
             <a
               href="/"
               aria-label="Our product"
               title="Our product"
-              className="font-extrabold tracking-wide text-black text-lg rounded-xl transition-colors duration-200 "
+              className="font-extrabold tracking-wide m-2 hover:bg-gray-200 text-black text-lg px-4 rounded-xl py-3 transition-colors duration-200 "
             >
               Artworks
             </a>
@@ -37,7 +37,7 @@ const Header = () => {
               href="/"
               aria-label="Our product"
               title="Our product"
-              className="font-extrabold tracking-wide text-gray-100 bg-black text-lg px-6 rounded-xl py-3 transition-colors duration-200"
+              className="font-extrabold tracking-wide text-gray-100 bg-black text-lg px-4 rounded-xl py-3 transition-colors duration-200"
             >
               Home
             </a>
@@ -47,15 +47,15 @@ const Header = () => {
               href="/"
               aria-label="Product pricing"
               title="Product pricing"
-              className="font-extrabold tracking-wide text-black text-lg rounded-xl transition-colors duration-200"
+              className="font-extrabold tracking-wide m-2 hover:bg-gray-200 text-black text-lg px-4 rounded-xl py-3 transition-colors duration-200"
             >
               Creators
             </a>
           </li>
         </ul>
-        <ul className="flex items-center hidden space-x-8 lg:flex">
+        <ul className="flex items-center space-x-8 lg:flex">
           <li>
-            <button class="px-6 py-3 font-bold text-lg text-gray-50  duration-200 transform bg-black rounded-full focus:outline-none">
+            <button class=" px-8 py-3 font-bold text-lg text-gray-50  duration-200 transform bg-black rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-md">
               Connect Wallet
             </button>
           </li>
