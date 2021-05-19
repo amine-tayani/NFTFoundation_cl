@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         quick: ["quicksand", "sans-serif"],
+        inter: ["inter", "sans-serif"],
       },
     },
   },

@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 
 export default function Home() {
@@ -9,9 +10,11 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
           rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
         <title>foundation project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Header />
     </div>
   )
