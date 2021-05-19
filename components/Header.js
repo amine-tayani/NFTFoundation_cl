@@ -14,7 +14,7 @@ const Header = () => {
           loop
         ></video>
       </div>
-      <div className="relative flex justify-end max-w-xl mx-auto xl:pr-14 lg:max-w-screen-xl">
+      <div className="flex justify-end max-w-xl mx-auto xl:pr-14 lg:max-w-screen-xl">
         <div className="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
           <div className="max-w-xl mb-6">
             <Profile style=" transform flex items-center shadow-sh rounded-full w-40 px-2 py-1 mb-4 transition duration-200 hover:shadow-lg hover:-translate-y-1 cursor-pointer" />

@@ -2,6 +2,10 @@ import Head from "next/head"
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Feature from "../components/Feature"
+import Artwork from "../components/Artwork"
+import CreatorList from "../components/CreatorList"
+import Articles from "../components/Articles"
+import CreatorSection from "../components/CreatorSection"
 
 export default function Home() {
   return (
@@ -18,6 +22,10 @@ export default function Home() {
       <Navbar />
       <Header />
       <Feature />
+      <Artwork />
+      <CreatorList />
+      <Articles />
+      <CreatorSection />
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from "react"
 
 const Profile = ({ style }) => {
   return (
-    <div className="popover__wrapper">
+    <div className=" popover__wrapper">
       <div className={style}>
         <img
           src="https://f8n-production.imgix.net/creators/profile/604qgsmmg-screen-shot-2021-04-04-at-11-16-22-pm-png-phpnw5.png"
@@ -13,10 +13,10 @@ const Profile = ({ style }) => {
         <p className=" px-2 text-base font-semibold rounded-full">@elliepritts</p>
       </div>
 
-      <div class="popover__content px-4 py-3 bg-white rounded-md shadow">
-        <div class="flex items-center justify-between p-4 ">
+      <div className="popover__content px-4 py-3 bg-white rounded-md shadow">
+        <div className="flex items-center justify-between p-4 ">
           <img
-            class=" object-cover w-20 h-20 rounded-full"
+            className=" object-cover w-20 h-20 rounded-full"
             src="https://f8n-production.imgix.net/creators/profile/604qgsmmg-screen-shot-2021-04-04-at-11-16-22-pm-png-phpnw5.png"
             alt="avatar"
           />
