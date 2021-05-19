@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
+import Feature from "../components/Feature"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
+      <Feature />
     </div>
   )
 }
