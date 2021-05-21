@@ -9,11 +9,10 @@ const Profile = ({ style }) => {
           alt=""
           className=" w-10 h-10 border rounded-full"
         />
-
         <p className=" px-2 text-base font-semibold rounded-full">@elliepritts</p>
       </div>
 
-      <div className="popover__content px-4 py-3 bg-white rounded-md shadow">
+      <div className=" popover__content px-4 py-3 bg-white rounded-md shadow">
         <div className="flex items-center justify-between p-4 ">
           <img
             className=" object-cover w-20 h-20 rounded-full"

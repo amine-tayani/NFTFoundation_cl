@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const Navbar = () => {
+const Navbar = ({ buttonStyle }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </a>
-        <ul className="items-center hidden space-x-2 lg:flex shadow-sh py-4 rounded-lg">
+        <ul className="bg-white items-center hidden space-x-2 lg:flex lg:justify-center lg:ml-20 shadow-sh py-4 rounded-lg">
           <li>
             <a
               href="/"
@@ -35,7 +35,7 @@ const Navbar = () => {
             <a
               href="/"
               aria-label="Our product"
-              className="font-extrabold tracking-wide text-gray-100 bg-black text-lg px-4 rounded-xl py-3 transition-colors duration-200"
+              className={`font-extrabold tracking-wide ${buttonStyle} text-lg px-4 rounded-xl py-3 transition-colors duration-200`}
             >
               Home
             </a>

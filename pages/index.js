@@ -6,6 +6,7 @@ import Artwork from "../components/Artwork"
 import CreatorList from "../components/CreatorList"
 import Articles from "../components/Articles"
 import CreatorSection from "../components/CreatorSection"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -19,13 +20,14 @@ export default function Home() {
         <title>foundation project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      <Navbar buttonStyle="bg-black text-gray-100" />
       <Header />
       <Feature />
       <Artwork />
       <CreatorList />
       <Articles />
       <CreatorSection />
+      <Footer />
     </div>
   )
 }

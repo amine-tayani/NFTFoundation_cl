@@ -18,7 +18,7 @@ const CreatorSection = () => {
         </div>
         <div className="flex justify-center my-4">
           <button className="font-inter px-8 py-3 font-medium text-lg text-black duration-200 transform bg-white border-2 border-gray-400 rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-md hover:text-white hover:bg-black">
-            Become a creator on oundation
+            Become a creator on Foundation
           </button>
         </div>
       </div>

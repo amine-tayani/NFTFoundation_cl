@@ -11,6 +11,15 @@ module.exports = {
         quick: ["quicksand", "sans-serif"],
         inter: ["inter", "sans-serif"],
       },
+      height: {
+        tbml: "560px",
+      },
+      spacing: {
+        84: "21rem",
+      },
+      cursor: {
+        "zoom-in": "zoom-in",
+      },
     },
   },
   variants: {

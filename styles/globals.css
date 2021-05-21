@@ -24,6 +24,7 @@
     -webkit-text-fill-color: transparent;
   }
   .popover__wrapper {
+    z-index: 9999;
     position: relative;
     margin-top: 2rem;
     display: inline-block;
