@@ -3,13 +3,13 @@ import React from "react"
 const Footer = () => {
   return (
     <div className=" text-sm text-gray-400 font-bold font-quick flex py-8 md:justify-between h-64 lg:h-32 bg-gray-100 mx-auto sm:max-w-l md:max-w-full md:px-24 lg:px-8 lg:py-4">
-      <div className="mx-8 lg:mx-20 flex flex-col space-y-1 lg:space-y-0 md:flex-row lg:space-x-4 lg:items-center ">
+      <div className="mx-8 lg:mx-20 flex flex-col py-6 space-y-1 lg:space-y-0 md:flex-row lg:space-x-4 lg:items-center ">
         <a href="/">
           <svg
             fill="none"
             viewBox="0 0 98 33"
             xmlns="http://www.w3.org/2000/svg"
-            className="text-gray-300 h-20 w-20"
+            className="text-gray-300 h-16 w-16"
           >
             <path
               clip-rule="evenodd"
@@ -32,7 +32,7 @@ const Footer = () => {
           Blog
         </a>
       </div>
-      <div className="mx-8 lg:mx-20 lg:py-0 py-20 flex flex-col lg:space-y-0  space-y-1 md:flex-row lg:space-x-4 lg:items-center">
+      <div className="mx-8 lg:mx-20 lg:py-0 py-14 flex flex-col lg:space-y-0  space-y-1 md:flex-row lg:space-x-4 lg:items-center">
         <a className="hover:text-gray-600" href="">
           About
         </a>
