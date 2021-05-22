@@ -18,7 +18,7 @@ const Card = ({ image }) => {
     }
   }
   return (
-    <div className="flex flex-col justify-between shadow-sh transform transition duration-300 cursor-pointer rounded-xl hover:shadow-lg hover:-translate-y-2 ">
+    <div className="relative z-0 flex flex-col justify-between shadow-sh transform transition duration-300 cursor-pointer rounded-xl hover:shadow-lg hover:-translate-y-2 ">
       <img src={image} alt="" className="rounded-t-xl h-96" />
       <div className=" flex flex-col space-y-4 py-4 px-6">
         <h1 className="font-semibold ml-2 text-2xl font-inter">Sand Gold</h1>
