@@ -35,10 +35,10 @@ export default function Creator() {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-        <title>Creator page</title>
+        <title>creator | foundation </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="absolute w-full h-tbml bg-gray-200">
+      <div className="absolute w-full h-tbml bg-white lg:bg-gray-200">
         <Navbar buttonStyle="bg-white text-black " />
         <header className="relative z-0 flex justify-center h-screen overflow-hidden">
           <video

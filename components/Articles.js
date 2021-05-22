@@ -2,7 +2,7 @@ import Blog from "./Blog"
 
 const Articles = () => {
   return (
-    <div className=" px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-4">
+    <div className=" px-4 mx-auto sm:max-w-3xl sm:px-6 md:max-w-full lg:max-w-screen-2xl lg:px-8 lg:py-4">
       <div className="flex justify-between font-inter mb-8 border-black border-b py-4">
         <h1 className="text-2xl font-semibold">Blog</h1>
 
@@ -10,7 +10,7 @@ const Articles = () => {
           View all articles
         </a>
       </div>
-      <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-3 ">
         <Blog
           description="A fascination with the wilderness, landscapes, and geological forms are central to the artist’s Geomancer series."
           title="Rick Silva on the nature of a not-too-distant future."
@@ -28,7 +28,7 @@ const Articles = () => {
         />
       </div>
       <div className="flex justify-center my-8">
-        <button className="font-inter px-8 py-3 font-medium text-lg text-black duration-200 transform bg-white border-2 border-gray-400 rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-md hover:text-white hover:bg-black">
+        <button className="font-inter px-8 py-3 font-medium text-lg text-black duration-200 transform bg-white border-2 border-gray-400 rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-xl hover:border-transparent hover:text-white hover:bg-black">
           View all Articles
         </button>
       </div>

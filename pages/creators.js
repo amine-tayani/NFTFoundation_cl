@@ -17,13 +17,13 @@ export default function Creators() {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-        <title>Foundation | creators page</title>
+        <title>Creators | foundation </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <Search />
-      <div className=" px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 mb-20">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className=" px-6 sm:px-4 mx-auto max-w-lg sm:max-w-2xl md:max-w-full lg:max-w-screen-2xl md:px-8 lg:px-6 lg:py-16 mb-20">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {creators.map((creator) => {
             return <Creator key={creator} />
           })}

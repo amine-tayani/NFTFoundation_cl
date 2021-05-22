@@ -14,7 +14,7 @@ export default function Artworks() {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-        <title>Artworks page | foundation project</title>
+        <title>Artworks | foundation </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar buttonStyle="bg-black text-gray-100" />
@@ -22,15 +22,15 @@ export default function Artworks() {
         <button className="font-semibold tracking-wide m-2 bg-black focus:outline-none text-white text-sm px-4 rounded-lg py-1 transition-colors duration-200 cursor-pointer">
           Live auction
         </button>
-        <a className="font-semibold tracking-wide m-2 hover:bg-gray-100 text-black text-sm px-4 rounded-lg py-1  transition-colors duration-200 cursor-pointer">
+        <a className="font-semibold tracking-wide m-2 hover:bg-gray-100 active:bg-black focus:text-white text-black text-sm px-4 rounded-lg py-1  transition-colors duration-200 cursor-pointer">
           Reserve not me
         </a>
-        <a className="font-semibold tracking-wide m-2 hover:bg-gray-100 text-black text-sm px-4 rounded-lg py-1 transition-colors duration-200 cursor-pointer">
+        <a className="font-semibold tracking-wide m-2 hover:bg-gray-100 focus:bg-black focus:text-white text-black text-sm px-4 rounded-lg py-1 transition-colors duration-200 cursor-pointer">
           Sold
         </a>
       </div>
-      <div className=" px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-4 mb-24 lg:mb-52">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className=" px-6 sm:px-4 mx-auto max-w-lg sm:max-w-2xl md:max-w-full lg:max-w-screen-2xl md:px-8 lg:px-6 lg:py-16 mb-24 lg:mb-52">
+        <div className=" grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
           {artworks.map((artwork) => {
             return (
               <Card

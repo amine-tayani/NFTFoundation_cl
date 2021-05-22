@@ -17,10 +17,10 @@ export default function Home() {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-        <title>foundation project</title>
+        <title>Home | foundation </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar buttonStyle="bg-black text-gray-100" />
+      <Navbar secondbtn="bg-black text-gray-100" />
       <Header />
       <Feature />
       <Artwork />

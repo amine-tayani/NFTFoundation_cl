@@ -57,7 +57,7 @@ const Navbar = ({ buttonStyle }) => {
             </button>
           </li>
         </ul>
-        <div className="lg:hidden">
+        <div className="sm:hidden">
           <button
             aria-label="Open Menu"
             className={`${
@@ -116,11 +116,11 @@ const Navbar = ({ buttonStyle }) => {
                     </button>
                   </div>
                 </div>
-                <nav className="mx-2 h-screen">
+                <nav className="mx-2 h-screen w-screen">
                   <ul className="space-y-2">
                     <li>
                       <a
-                        href="/"
+                        href="/artworks"
                         aria-label="Our product"
                         className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
                       >
@@ -129,7 +129,7 @@ const Navbar = ({ buttonStyle }) => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/creator"
                         aria-label="Our product"
                         className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
                       >
