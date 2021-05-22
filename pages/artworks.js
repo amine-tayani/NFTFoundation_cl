@@ -40,6 +40,11 @@ export default function Artworks() {
             )
           })}
         </div>
+        <div className="flex justify-center my-8">
+          <button className="font-inter px-6 py-3 font-medium text-lg text-black duration-200 transform bg-white border-2 border-black rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-xl hover:border-transparent hover:text-white  hover:bg-black">
+            Load More
+          </button>
+        </div>
       </div>
       <Footer />
     </div>

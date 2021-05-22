@@ -38,17 +38,17 @@ export default function Creator() {
         <title>creator | foundation </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="absolute w-full h-tbml bg-white lg:bg-gray-200">
+      <div className="absolute w-full h-tbml bg-white md:bg-gray-200">
         <Navbar buttonStyle="bg-white text-black " />
-        <header className="relative z-0 flex justify-center h-screen overflow-hidden">
+        <header className="relative -top-12 sm:top-10 md:-top-12 z-0 flex justify-center h-screen overflow-hidden">
           <video
             ref={fullScreenVideoRef}
             onClick={toggleFullScreen}
-            playsinline
-            autoplay="1"
+            playsInline
+            autoPlay="1"
             loop
             muted
-            className="hover:cursor-zoom-in absolute w-80"
+            className="hover:cursor-zoom-in absolute h-2/3 w-10/12 md:w-5/12 lg:w-96"
           >
             <source
               src="https://d2ybmb80bbm9ts.cloudfront.net/qJ/Zn/QmbENPncVeBBfxW2UEQdU5DUQdhtm6aR58ps1kEEJrqJZn/nft.mp4"
@@ -56,7 +56,7 @@ export default function Creator() {
             />
           </video>
         </header>
-        <div className="relative bottom-48 lg:bottom-96 flex justify-center lg:justify-between">
+        <div className="relative bottom-48 md:bottom-84 md:-my-4 lg:-my-0  lg:bottom-96 flex justify-center md:justify-between">
           <div className="mx-10 lg:mx-20">
             <Profile style="bg-white transform flex items-center shadow-sh rounded-full w-40 px-2 py-1 mb-4 transition duration-200 hover:shadow-lg hover:-translate-y-1 cursor-pointer" />
           </div>
@@ -125,7 +125,7 @@ export default function Creator() {
                   <p className="font-inter text-black font-bold mt-16 mb-2 ml-4">Edition of</p>
                   <p className="text-2xl lg:text-4xl  font-bold font-inter ml-4">1</p>
                 </div>
-                <div className="flex py-6 px-4 w-96 justify-between shadow-xl rounded-lg">
+                <div className="flex py-6 px-4 w-96 justify-between shadow-sh rounded-lg">
                   <div className="flex items-center space-x-6 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ export default function Creator() {
                     />
                   </svg>
                 </div>
-                <div className="flex py-6 px-4 w-96 justify-between shadow-xl rounded-lg">
+                <div className="flex py-6 px-4 w-96 justify-between shadow-sh rounded-lg">
                   <div className="flex items-center space-x-6 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ export default function Creator() {
                     />
                   </svg>
                 </div>
-                <div className="flex py-6 px-4 w-96 justify-between shadow-xl rounded-lg">
+                <div className="flex py-6 px-4 w-96 justify-between shadow-sh rounded-lg">
                   <div className="flex items-center space-x-6 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -230,11 +230,11 @@ export default function Creator() {
               </div>
             </div>
             <div className="p-4 ">
-              <div className="shadow-xl flex flex-col space-y-5 lg:space-y-0 lg:flex-row  justify-evenly divide-x-2 my-8 border-b pb-8">
-                <div>
+              <div className="shadow-sh flex flex-col space-y-5 lg:space-y-0 lg:flex-row md:space-x-10 lg:space-x-0 justify-evenly lg:divide-x-2 my-8 border-b pb-8">
+                <div className="md:mx-10">
                   <div className="flex flex-col space-y-2 text-black mx-16 lg:mx-0">
                     <h4 className="text-base font-bold ">Current Bid</h4>
-                    <p className="text-2xl lg:text-4xl  font-bold font-inter">2.211 ETH</p>
+                    <p className="text-2xl xl:text-4xl  font-bold font-inter">2.211 ETH</p>
                     <h4 className="text-xl font-semibold text-gray-500 font-quick tracking-wide">
                       $6,502.64
                     </h4>
@@ -267,11 +267,11 @@ export default function Creator() {
             </div>
           </div>
         </div>
-        <div className=" px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 lg:py-4">
+        <div className=" px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-16 lg:px-8 lg:py-4">
           <div className=" font-inter mb-8 lg:mt-20 border-black border-b py-4">
             <h1 className="text-2xl font-semibold">Creator</h1>
           </div>
-          <div className="flex flex-col space-y-4 lg:space-y-0 md:flex-row justify-between lg:items-center lg:mt-16">
+          <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row justify-between lg:items-center lg:mt-16">
             <div className="flex items-center space-x-8">
               <img
                 className=" object-cover w-20 h-20  md:w-32 md:h-32 rounded-full"
@@ -285,7 +285,7 @@ export default function Creator() {
                 </h2>
               </div>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 pb-8 ">
               <p className="font-inter text-lg lg:text-2xl font-medium">
                 gen art + exp music // a sense of rhythm fuels my research and real time visions
                 becomes quests for parallels // Created Tor's project first NFT, collected by

@@ -10,7 +10,7 @@ const Feature = () => {
           <h1 className="text-2xl font-semibold">Live auctions</h1>
         </div>
 
-        <a className="font-semibold text-lg text-gray-500 hover:text-gray-800" href="#auctions">
+        <a className="font-semibold text-lg text-gray-500 hover:text-gray-800" href="#">
           View all live auctions
         </a>
       </div>

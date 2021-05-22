@@ -2,7 +2,7 @@ import React from "react"
 
 const Activity = () => {
   return (
-    <div className="flex py-6 px-4 justify-between shadow-xl rounded-lg">
+    <div className="flex py-6 px-4 justify-between shadow-sh rounded-lg">
       <div className="flex items-center space-x-6 ">
         <img
           className=" object-cover w-10 h-10 rounded-full"

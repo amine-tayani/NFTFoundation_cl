@@ -9,8 +9,8 @@ const Header = () => {
             className="w-3/4 sm:w-2/3 md:w-3/5 lg:w-4/5 xl:w-3/4 px-3 cursor-pointer"
             src="https://d2ybmb80bbm9ts.cloudfront.net/D1/Vo/QmPh4z7vjX7fq7j6Bia3eJNf8KqNf1AxgP5Trt7gSmD1Vo/nft.mp4"
             poster="https://d2ybmb80bbm9ts.cloudfront.net/D1/Vo/QmPh4z7vjX7fq7j6Bia3eJNf8KqNf1AxgP5Trt7gSmD1Vo/nft.jpg"
-            playsinline
-            autoplay="1"
+            playsInline
+            autoPlay="1"
             muted
             loop
           ></video>

@@ -122,7 +122,7 @@ const Navbar = ({ buttonStyle }) => {
                       <a
                         href="/artworks"
                         aria-label="Our product"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Artworks
                       </a>
@@ -131,7 +131,7 @@ const Navbar = ({ buttonStyle }) => {
                       <a
                         href="/creator"
                         aria-label="Our product"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Creators
                       </a>
@@ -140,7 +140,7 @@ const Navbar = ({ buttonStyle }) => {
                       <a
                         href="/"
                         aria-label="Our product"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Blog
                       </a>
@@ -149,7 +149,7 @@ const Navbar = ({ buttonStyle }) => {
                       <a
                         href="/"
                         aria-label="Product pricing"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Help
                       </a>
@@ -159,7 +159,7 @@ const Navbar = ({ buttonStyle }) => {
                         href="/"
                         aria-label="About us"
                         title="About us"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Discord
                       </a>
@@ -169,12 +169,33 @@ const Navbar = ({ buttonStyle }) => {
                         href="/"
                         aria-label="About us"
                         title="About us"
-                        className="font-inter font-bold text-3xl tracking-wide transition-colors duration-200 "
+                        className="font-inter font-bold text-3xl tracking-wide  "
                       >
                         Careers
                       </a>
                     </li>
                   </ul>
+                  <div className="w-full -mx-4 text-sm text-gray-400 font-bold font-quick space-x-24 flex h-32 my-52">
+                    <div className="mx-8 flex flex-col py-6 space-y-1 ">
+                      <a className="hover:text-gray-600" href="">
+                        Twitter
+                      </a>
+                      <a className="hover:text-gray-600" href="">
+                        Privacy Policy
+                      </a>
+                      <a className="hover:text-gray-600" href="">
+                        Discord
+                      </a>
+                    </div>
+                    <div className="mx-8 py-6  flex flex-col  space-y-1 ">
+                      <a className="hover:text-gray-600" href="">
+                        Terms of Service
+                      </a>
+                      <a className="hover:text-gray-600" href="">
+                        Instgram
+                      </a>
+                    </div>
+                  </div>
                 </nav>
               </div>
             </div>
