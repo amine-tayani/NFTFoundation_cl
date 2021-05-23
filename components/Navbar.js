@@ -52,7 +52,7 @@ const Navbar = ({ buttonStyle }) => {
         </ul>
         <ul className="flex items-center space-x-8 lg:flex">
           <li>
-            <button className=" px-8 py-3 font-bold text-lg text-gray-50  duration-200 transform bg-black rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-md">
+            <button className="hidden md:block px-8 py-2 font-bold md:py-3 text-sm md:text-lg text-gray-50  duration-200 transform bg-black rounded-full focus:outline-none hover:-translate-y-1 hover:shadow-md">
               Connect Wallet
             </button>
           </li>
@@ -81,10 +81,10 @@ const Navbar = ({ buttonStyle }) => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className=" absolute top-0 left-0 w-full max-z ">
+            <div className="min-w-max absolute top-0 -left-4 w-full max-z ">
               <div className=" bg-white rounded min-w-full">
                 <div className="flex items-center justify-between mb-4">
-                  <div>
+                  <div className="px-8">
                     <a href="/" aria-label="Company" className="inline-flex items-center">
                       <svg
                         fill="none"
@@ -101,7 +101,7 @@ const Navbar = ({ buttonStyle }) => {
                       </svg>
                     </a>
                   </div>
-                  <div>
+                  <div className="px-16">
                     <button
                       aria-label="Close Menu"
                       className="p-4 -mt-2 transform hover:scale-105 transition duration-200 focus:outline-none focus:shadow-outline shadow rounded-full"
@@ -116,7 +116,7 @@ const Navbar = ({ buttonStyle }) => {
                     </button>
                   </div>
                 </div>
-                <nav className="mx-2 h-screen w-screen">
+                <nav className="mx-4 h-screen w-screen">
                   <ul className="space-y-2">
                     <li>
                       <a
@@ -175,7 +175,7 @@ const Navbar = ({ buttonStyle }) => {
                       </a>
                     </li>
                   </ul>
-                  <div className="w-full -mx-4 text-sm text-gray-400 font-bold font-quick space-x-24 flex h-32 my-52">
+                  <div className="w-full -mx-8 text-sm text-gray-400 font-bold font-quick space-x-24 flex h-32 my-52">
                     <div className="mx-8 flex flex-col py-6 space-y-1 ">
                       <a className="hover:text-gray-600" href="">
                         Twitter
