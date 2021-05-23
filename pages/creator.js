@@ -40,7 +40,7 @@ export default function Creator() {
       </Head>
       <div className="absolute w-full h-tbml bg-white md:bg-gray-200">
         <Navbar buttonStyle="bg-white text-black " />
-        <header className="relative -top-12 sm:top-10 md:-top-12 z-0 flex justify-center h-screen overflow-hidden">
+        <header className="relative -top-12 sm:top-10 md:-top-12 xl:-top-44 z-0 flex justify-center h-screen overflow-hidden">
           <video
             ref={fullScreenVideoRef}
             onClick={toggleFullScreen}
@@ -56,7 +56,7 @@ export default function Creator() {
             />
           </video>
         </header>
-        <div className="relative bottom-48 md:bottom-84 md:-my-4 lg:-my-0  lg:bottom-96 flex justify-center md:justify-between">
+        <div className="relative bottom-48 md:bottom-84 xl:bottom-full xl:-my-36  md:-my-4 lg:-my-0  lg:bottom-96 flex justify-center md:justify-between">
           <div className="mx-10 lg:mx-20">
             <Profile style="bg-white transform flex items-center shadow-sh rounded-full w-40 px-2 py-1 mb-4 transition duration-200 hover:shadow-lg hover:-translate-y-1 cursor-pointer" />
           </div>

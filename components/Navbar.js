@@ -82,7 +82,7 @@ const Navbar = ({ buttonStyle }) => {
           </button>
           {isMenuOpen && (
             <div className=" absolute top-0 left-0 w-full max-z ">
-              <div className=" bg-white rounded h-screen">
+              <div className=" bg-white rounded min-w-full">
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <a href="/" aria-label="Company" className="inline-flex items-center">
