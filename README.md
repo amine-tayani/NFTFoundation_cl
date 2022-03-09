@@ -4,7 +4,7 @@
 
 ## About Project
 
-![Project Screenshot](portfolio.png)
+![Project Screenshot](foundation.png)
 
  foundation.app clone was built using the Next js framework developed by [Vercel](https://vercel.com), it uses the Popular Css Framework Tailwind CSS.
 
