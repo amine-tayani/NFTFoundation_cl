@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useState } from "react";
 
 const Navbar = ({ buttonStyle }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 font-quick">
@@ -17,7 +17,7 @@ const Navbar = ({ buttonStyle }) => {
               clip-rule="evenodd"
               d="M64.894 16.456c0 9.088-7.368 16.456-16.457 16.456s-16.455-7.368-16.455-16.456S39.349 0 48.438 0s16.455 7.368 16.455 16.456zM16.902 1.567a.784.784 0 011.358 0L35.056 30.66a.784.784 0 01-.679 1.176H.785a.784.784 0 01-.679-1.176zM68.614.98c-.865 0-1.567.702-1.567 1.568v27.818c0 .866.702 1.567 1.567 1.567h27.819c.865 0 1.567-.701 1.567-1.567V2.547c0-.866-.702-1.568-1.567-1.568z"
               fill="currentColor"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             ></path>
           </svg>
         </a>
@@ -85,7 +85,11 @@ const Navbar = ({ buttonStyle }) => {
               <div className=" bg-white rounded min-w-full">
                 <div className="flex items-center justify-between mb-4">
                   <div className="px-8">
-                    <a href="/" aria-label="Company" className="inline-flex items-center">
+                    <a
+                      href="/"
+                      aria-label="Company"
+                      className="inline-flex items-center"
+                    >
                       <svg
                         fill="none"
                         viewBox="0 0 98 33"
@@ -93,10 +97,10 @@ const Navbar = ({ buttonStyle }) => {
                         className="text-black h-20 w-20"
                       >
                         <path
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                           d="M64.894 16.456c0 9.088-7.368 16.456-16.457 16.456s-16.455-7.368-16.455-16.456S39.349 0 48.438 0s16.455 7.368 16.455 16.456zM16.902 1.567a.784.784 0 011.358 0L35.056 30.66a.784.784 0 01-.679 1.176H.785a.784.784 0 01-.679-1.176zM68.614.98c-.865 0-1.567.702-1.567 1.568v27.818c0 .866.702 1.567 1.567 1.567h27.819c.865 0 1.567-.701 1.567-1.567V2.547c0-.866-.702-1.568-1.567-1.568z"
                           fill="currentColor"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                         ></path>
                       </svg>
                     </a>
@@ -203,6 +207,6 @@ const Navbar = ({ buttonStyle }) => {
         </div>
       </div>
     </div>
-  )
-}
-export default Navbar
+  );
+};
+export default Navbar;
