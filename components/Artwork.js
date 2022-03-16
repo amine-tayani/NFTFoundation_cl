@@ -10,10 +10,10 @@ const Artwork = () => {
     "https://f8n-production-collection-assets.imgix.net/0x83eEd04AcD74d301120d74858CC92B62e49eEC3D/2/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
     "https://f8n-ipfs-production.imgix.net/QmVN2FhHZfiWrCr8oSZSjAAdiPAuHnEgYWmQE9zCX2C1aY/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
     "https://f8n-production-collection-assets.imgix.net/0x7dd182AA0384e284Ceb793d6395AB65975C6946a/4/nft.png?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
-    "https://f8n-production-collection-assets.imgix.net/0x3a3B28f072613c8c5B8A7cbCd62227Af031307Ba/7/nft.png?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
-    "https://f8n-production-collection-assets.imgix.net/0x66AD5fD7A21BE811aa8737f60a9d12E8C43d97f7/9/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
-    "https://f8n-production-collection-assets.imgix.net/0x83eEd04AcD74d301120d74858CC92B62e49eEC3D/2/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
-    "https://f8n-production-collection-assets.imgix.net/0xF26d2FeF7Ab9849E7F6433cb0C034C5d23768D55/3/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+    "https://f8n-production-collection-assets.imgix.net/0xc1fB22B48403DD024F1a5255a348b72066c31201/4/nft.png?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+    "https://f8n-production-collection-assets.imgix.net/0x119504c8907224fc8138Da0451eD3e8be144f96f/2/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+    "https://f8n-ipfs-production.imgix.net/QmevKWXPqM13uwjbFDDA64KJnKn2RDuuqm29wDJgtuoPeF/nft.png?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+    "https://f8n-production-collection-assets.imgix.net/0x3B3ee1931Dc30C1957379FAc9aba94D1C48a5405/131128/QmWdXTaT6BK7vxHs7QhaGbpJAvXk52nwq5s5pPAQ1aT9p1/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
   ];
   return (
     <div className=" px-6 sm:px-4 mx-auto max-w-lg sm:max-w-2xl md:max-w-full lg:max-w-screen-2xl md:px-8 lg:px-6 lg:py-16">
